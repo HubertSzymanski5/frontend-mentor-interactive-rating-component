@@ -23,7 +23,12 @@ const configureMarkButtons = () => {
 
 const configureSubmitButton = () => {
     const submit = () => {
-        console.log(currentMark);
+        if (!currentMark) return;
+
+        document.querySelector(".rating-card").classList.add("hidden");
+        document.querySelector(".thanks-card").classList.remove("hidden");
+
+        document.querySelector(".selection-info").textContent = `You selected ${currentMark} out of 5`;
     }
 
     const submitButton = document.querySelector("button.submit");

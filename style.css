@@ -52,7 +52,7 @@ h1 {
 	justify-content: space-between;
 }
 
-img {
+img.star {
 	aspect-ratio: 1/1;
 	width: 15px;
 	background-color: var(--color-dark-blue);
@@ -108,6 +108,31 @@ button {
 .selected {
 	background-color: var(--color-light-grey);
 	color: var(--color-white);
+}
+
+.thanks-card {
+	align-items: center;
+	display: flex;
+	flex-flow: column;
+	height: 85%;
+	justify-content: space-between;
+	padding: 20px 0;
+	text-align: center;
+	width: 90%;
+}
+
+img.thank-you-illustration {
+	aspect-ratio: 162 / 108;
+	padding-top: 15px;
+	width: 50%;
+}
+
+.selection-info {
+	color: var(--color-orange);
+	background-color: var(--color-dark-blue);
+	padding: 10px 15px 6px 15px;
+	margin: 20px 0;
+	border-radius: 20px;
 }
 
 .hidden {
