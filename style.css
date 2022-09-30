@@ -138,3 +138,20 @@ img.thank-you-illustration {
 .hidden {
 	display: none;
 }
+
+footer {
+	background-color: var(--color-dark-blue);
+	bottom: 0;
+	color: var(--color-white);
+	font-size: 13px;
+	font-weight: 200;
+	padding: 5px 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+a {
+	color: var(--color-orange);
+	text-decoration: none;
+}
