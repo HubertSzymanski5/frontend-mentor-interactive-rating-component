@@ -35,9 +35,9 @@ h1 {
 			var(--color-very-dark-blue)
 	);
 	border-radius: 2rem;
-	max-width: 380px;
+	max-width: 25.333rem;
 	width: 80%;
-	min-width: 340px;
+	min-width: 22.667rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -48,16 +48,16 @@ h1 {
 	flex-flow: column;
 	height: 85%;
 	width: 90%;
-	padding: 20px 0;
+	padding: 1.333rem 0;
 	justify-content: space-between;
 }
 
 img.star {
 	aspect-ratio: 1/1;
-	width: 15px;
+	width: 1rem;
 	background-color: var(--color-dark-blue);
-	padding: 15px;
-	margin: 5px 0;
+	padding: 1rem;
+	margin: 0.333rem 0;
 	border-radius: 50%;
 }
 
@@ -83,7 +83,7 @@ button {
 	background-color: var(--color-dark-blue);
 	border-radius: 50%;
 	color: var(--color-light-grey);
-	width: 45px;
+	width: 3rem;
 }
 
 .mark:hover {
@@ -93,10 +93,10 @@ button {
 
 .submit {
 	background-color: var(--color-orange);
-	border-radius: 22.5px / 50%;
+	border-radius: 1.5rem / 50%;
 	color: var(--color-white);
-	height: 45px;
-	margin-top: 20px;
+	height: 3rem;
+	margin-top: 1.333rem;
 	width: 100%;
 }
 
@@ -116,23 +116,23 @@ button {
 	flex-flow: column;
 	height: 85%;
 	justify-content: space-between;
-	padding: 20px 0;
+	padding: 1.333rem 0;
 	text-align: center;
 	width: 90%;
 }
 
 img.thank-you-illustration {
 	aspect-ratio: 162 / 108;
-	padding-top: 15px;
+	padding-top: 1rem;
 	width: 50%;
 }
 
 .selection-info {
 	color: var(--color-orange);
 	background-color: var(--color-dark-blue);
-	padding: 10px 15px 6px 15px;
-	margin: 20px 0;
-	border-radius: 20px;
+	padding: 0.667rem 1rem 0.4rem 1rem;
+	margin: 1.333rem 0;
+	border-radius: 1.333rem;
 }
 
 .hidden {
