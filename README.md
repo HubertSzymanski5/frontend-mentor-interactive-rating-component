@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/HubertSzymanski5/frontend-mentor-interactive-rating-component](https://github.com/HubertSzymanski5/frontend-mentor-interactive-rating-component)
-- Live Site URL: [TODO](TODO)
+- Live Site URL: [https://frontend-mentor-interactive-rating-component-five.vercel.app/](https://frontend-mentor-interactive-rating-component-five.vercel.app/)
 
 ## My process
 
