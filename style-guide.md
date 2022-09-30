@@ -11,15 +11,15 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Orange: hsl(25, 97%, 53%)
+- Orange: hsl(25, 97%, 53%) (button, mark:hoover)
 
 ### Neutral
 
-- White: hsl(0, 0%, 100%)
-- Light Grey: hsl(217, 12%, 63%)
-- Medium Grey: hsl(216, 12%, 54%)
-- Dark Blue: hsl(213, 19%, 18%)
-- Very Dark Blue: hsl(216, 12%, 8%)
+- White: hsl(0, 0%, 100%) (header, submit:hoover, mark.selected)
+- Light Grey: hsl(217, 12%, 63%) (paragraph)
+- Medium Grey: hsl(216, 12%, 54%) (mark number)
+- Dark Blue: hsl(213, 19%, 18%) (card bg)
+- Very Dark Blue: hsl(216, 12%, 8%) (bg)
 
 ## Typography
 
