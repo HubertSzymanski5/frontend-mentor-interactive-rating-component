@@ -36,6 +36,8 @@ h1 {
 	);
 	border-radius: 2rem;
 	max-width: 380px;
+	width: 80%;
+	min-width: 340px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -45,7 +47,7 @@ h1 {
 	display: flex;
 	flex-flow: column;
 	height: 85%;
-	width: 85%;
+	width: 90%;
 	padding: 20px 0;
 	justify-content: space-between;
 }
@@ -55,7 +57,7 @@ img {
 	width: 15px;
 	background-color: var(--color-dark-blue);
 	padding: 15px;
-	margin: 15px 0;
+	margin: 5px 0;
 	border-radius: 50%;
 }
 
