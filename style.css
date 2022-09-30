@@ -75,6 +75,7 @@ img {
 button {
 	border: none;
 	cursor: pointer;
+	font-weight: bold;
 }
 
 .mark {
