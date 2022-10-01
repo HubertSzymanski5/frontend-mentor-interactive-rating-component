@@ -25,8 +25,12 @@ const configureSubmitButton = () => {
     const submit = () => {
         if (!currentMark) return;
 
-        document.querySelector(".rating-card").classList.add("hidden");
-        document.querySelector(".thanks-card").classList.remove("hidden");
+        const card = document.querySelector(".card");
+        card.classList.add("fade-between");
+        setTimeout(() => {
+            document.querySelector(".rating-card").classList.add("hidden");
+            document.querySelector(".thanks-card").classList.remove("hidden");
+        }, 250);
 
         document.querySelector(".selection-info").textContent = `You selected ${currentMark} out of 5`;
     }

@@ -29,18 +29,19 @@ h1 {
 }
 
 .card {
+	align-items: center;
 	background: var(--color-dark-blue) radial-gradient(
 			40rem at top,
 			var(--color-dark-blue),
 			var(--color-very-dark-blue)
 	);
 	border-radius: 2rem;
-	max-width: 25.333rem;
-	width: 80%;
-	min-width: 22.667rem;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	max-width: 25.333rem;
+	min-width: 22.667rem;
+	overflow: hidden;
+	width: 80%;
 }
 
 .rating-card {
@@ -139,6 +140,10 @@ img.thank-you-illustration {
 	border-radius: 1.333rem;
 }
 
+.fade-between {
+	animation: fade-between .5s linear;
+}
+
 .hidden {
 	display: none;
 }
@@ -169,5 +174,17 @@ a {
 	}
 	100% {
 		transform: scale(110%);
+	}
+}
+
+@keyframes fade-between {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }
